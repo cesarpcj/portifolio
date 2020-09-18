@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap');
+* {
+  box-sizing: content-box;
+}
+a, a:hover, a:active, a:link, a:visited{
+  color: inherit !important;
+  text-decoration: none !important;
+}
 .App {
   text-align: center;
+  padding-top: 50px;
+  background-color: rgb(40, 40, 40);
 }
 
 .App-logo {
@@ -36,4 +46,171 @@
   100% {
     transform: translateY(0px)
   }
+}
+
+@keyframes av {
+  25% {
+    transform: rotate(5deg)
+  }
+
+  50% {
+    transform: rotate(-10deg)
+  }
+  75% {
+    transform: rotate(5deg)
+  }
+  100% {
+    transform: rotate(-5deg)
+  }
+ 
+}
+
+.main--header{
+  padding: 30px 0;
+  color:rgb(103, 205, 247);
+  background-color: rgb(30, 30, 30);
+  
+  margin: auto;
+  
+  border-bottom: 4px solid rgb(103, 205, 247);
+  border-top: 4px solid rgb(103, 205, 247);
+}
+
+.main--intro{
+  margin: auto;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+}
+
+.main--info{
+  margin: 20px auto;
+  
+}
+
+.main--info p{
+  font-size: 2em;
+  text-align: left;
+  margin:0 10px;
+  overflow:hidden; white-space: nowrap;
+  
+}
+
+.main--info--icons{
+  margin: 20px auto;
+  display: flex;
+}
+
+.main--info p:hover{
+  color: rgb(220, 205, 121);
+  
+}
+
+
+
+.avatar{
+  border-radius: 20px;
+  margin: 20px 0 30px;
+
+  width: 140px;
+  height: 170px;
+  object-fit: cover;
+  
+
+}
+
+.avatar:hover{
+  animation: av 0.5s ease-in;
+}
+
+
+.main--intro--text{
+  
+  font-size: 1.5em;
+  
+  font-family: 'Fira Code';
+}
+
+.main--works{
+  
+  color: rgb(103, 205, 247);
+}
+.main--works h3{
+  margin: 40px 0 30px 60px;
+  text-align: left;
+}
+
+.main--works p, h5{
+  
+  text-align: left;
+}
+
+.main--works--list{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.main--works--item{
+  width: 18rem;
+  min-width: 18rem;
+  margin: 20px 30px 20px 10px;
+}
+
+.main--works--item--card--body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 13rem;
+  padding: 1.25rem;
+  background-color: rgb(30, 30, 30);
+}
+
+.btn--card{
+  display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 2px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+  background-color: rgb(30, 30, 30);
+  border-color: rgb(103, 205, 247);
+}
+
+  
+
+
+
+
+
+.yellow--color{
+  color: rgb(220, 205, 121);
+}
+
+.yellow--color:hover{
+  text-decoration: line-through;
+}
+
+.brown--color{
+  color: rgb(172, 145, 106);
+}
+.white--color{
+  color: rgb(255, 255, 255);
+}
+
+.purple--color{
+  color: rgb(218, 99, 161);
 }
