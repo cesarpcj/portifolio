@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {GrLinkedin, GrGithub, GrMail, GrPhone, GrLocation} from 'react-icons/gr';
+import {GrLinkedin, GrGithub, GrMail} from 'react-icons/gr';
 import {FaPhoneSquareAlt} from 'react-icons/fa';
 import {MdLocationOn} from 'react-icons/md';
 
@@ -29,7 +29,7 @@ export default function MainInfo() {
                     </a>
                 </p>
             </div>
-            <div className="main--info--chosen">{chosenInfo}</div>
+            <div className="yellow--color">{chosenInfo}</div>
             
         </div>
     )

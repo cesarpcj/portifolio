@@ -11,7 +11,7 @@ export default function work() {
             <div className="main--works--list">
                 {
                     Projects.map(project =>{
-                        return <WorkItem img={project.img} title={project.title} description={project.description}/>
+                        return <WorkItem key={project.name} link={project.link} title={project.title} description={project.description}/>
                     }
 
                     )

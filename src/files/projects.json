@@ -1,18 +1,18 @@
 [
     {"title": "Castelinio",
-    "img":  "castelinio.png",
+    "cardStyle":  "main--works--item-card--1",
     "description": "Castelinio is a tower defense game. It was developed in 4 days using HTML5 Canvas",
     "link": "https://castelinio.netlify.app/"
     },
 
     {"title": "Uniflow",
-        "img": "uniflow.png",
+        "cardStyle": "main--works--item-card--2",
         "description": "A single-page application created with MERN Stack",
         "link": "https://uniflow-ironhack.herokuapp.com/"
         },
 
     {"title": "My Food Log",
-        "img":  "myFoodLog.png",
+        "cardStyle":  "main--works--item-card--3",
         "description": "A simple app where you can log your daily food consumption",
         "link": "https://ironhack-project-2-food-logger.herokuapp.com/"
         }

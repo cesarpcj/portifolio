@@ -3,7 +3,6 @@
   box-sizing: content-box;
 }
 a, a:hover, a:active, a:link, a:visited{
-  color: inherit !important;
   text-decoration: none !important;
 }
 .App {
@@ -48,20 +47,59 @@ a, a:hover, a:active, a:link, a:visited{
   }
 }
 
-@keyframes av {
-  25% {
-    transform: rotate(5deg)
+@keyframes falha {
+  0%{
+    opacity: 0.7;
   }
 
-  50% {
-    transform: rotate(-10deg)
+  25%{
+    opacity: 0.4;
   }
-  75% {
-    transform: rotate(5deg)
+
+  50%{
+    opacity: 0.8;
   }
+
+  75%{
+    opacity: 0.4;
+  }
+
+  100%{
+    opacity: 0.6;
+  }
+}
+
+@keyframes fadeInDownUp {
+ 0%{
+   opacity: 0;
+    transform: translateY(15px);
+ }
+ 50%{
+  opacity: 0.5;
+    
+ }
+ 
   100% {
-    transform: rotate(-5deg)
+    opacity: 1;
+    transform: translateY(0);
+    
   }
+ 
+}
+@keyframes leftToRight {
+ from{ transform: translateX(-100px); }
+ 
+to{ transform: translateX(0); }
+ 
+}
+@keyframes leftToRight2 {
+ from{transform: translateX(-200px);}
+  to{ transform: translateX(0);}
+ 
+}
+@keyframes leftToRight3 {
+ from{transform: translateX(-300px);}
+to{transform: translateX(0);}
  
 }
 
@@ -102,8 +140,20 @@ a, a:hover, a:active, a:link, a:visited{
   margin: 20px auto;
   display: flex;
 }
+.main--info--icons a{
+  color : rgb(103, 205, 247)
+}
+.main--info--icons{
+  margin: 20px auto;
+  display: flex;
+}
 
 .main--info p:hover{
+  color: rgb(220, 205, 121);
+  
+}
+
+.main--info a:hover{
   color: rgb(220, 205, 121);
   
 }
@@ -132,14 +182,27 @@ a, a:hover, a:active, a:link, a:visited{
   
   font-family: 'Fira Code';
 }
+.main--intro--text--animation--1{
+  
+  animation: leftToRight 0.7s ease-out;
+}
+.main--intro--text--animation--2{
+  
+  animation: leftToRight2 1s ease-out;
+}
+.main--intro--text--animation--3{
+  
+  animation: leftToRight3 1.2s ease-out;
+}
 
 .main--works{
-  
+  height: 100%;
   color: rgb(103, 205, 247);
 }
 .main--works h3{
-  margin: 40px 0 30px 60px;
+  margin: 40px 0 30px 10%;
   text-align: left;
+  color: rgb(220, 205, 121);;
 }
 
 .main--works p, h5{
@@ -160,7 +223,31 @@ a, a:hover, a:active, a:link, a:visited{
   width: 18rem;
   min-width: 18rem;
   margin: 20px 30px 20px 10px;
+  border-radius: 0.4rem;
+  box-shadow: 3px 3px 10px 2px  rgba(0, 0, 0, 0.5);
+  border-color:  rgba(0, 0, 0, 0.5);
+  
 }
+
+.main--works--item:hover{
+  width: 18rem;
+  min-width: 18rem;
+  border-radius: 0.4rem;
+  box-shadow: 3px 3px 10px 2px  rgba(0, 0, 0, 0.5);
+  border-color:  rgba(0, 0, 0, 0.5);
+  
+  transform: scale(1.05);
+}
+
+.work-item-animation{
+  animation: fadeInDownUp 1.5s ease-out;
+}
+
+.work-item-specialText-animation{
+  animation: falha 0.4s 4;
+}
+
+
 
 .main--works--item--card--body{
   display: flex;
@@ -168,8 +255,10 @@ a, a:hover, a:active, a:link, a:visited{
   justify-content: space-between;
   height: 13rem;
   padding: 1.25rem;
-  background-color: rgb(30, 30, 30);
+
+  
 }
+
 
 .btn--card{
   display: inline-block;
@@ -187,7 +276,17 @@ a, a:hover, a:active, a:link, a:visited{
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
   background-color: rgb(30, 30, 30);
-  border-color: rgb(103, 205, 247);
+  border-color: rgb(220, 205, 121);;
+}
+
+a:hover.btn--card{
+  color: white;
+  border-color: white;
+}
+
+a.btn--card{
+  color:rgb(220, 205, 121);
+  border-color: rgb(220, 205, 121);
 }
 
   
@@ -214,3 +313,10 @@ a, a:hover, a:active, a:link, a:visited{
 .purple--color{
   color: rgb(218, 99, 161);
 }
+
+.footer{
+  height: 50px;
+  background-color: rgb(30, 30, 30);
+}
+
+

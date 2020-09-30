@@ -4,11 +4,11 @@ export default function mainIntro() {
     return (
         <div className="main--intro">
             
-            <div className="main--intro--text">
+            <div className="main--intro--text main--intro--text--animation">
 
-                <p>Hi, I am <span className="yellow--color">César Mello</span>.</p>
-                <p>I am a <span className="purple--color">Fullstack Web Developer</span>.</p>
-                <p>I Love <span className="brown--color">programming</span>, <span className="brown--color">games</span> and <span className="brown--color">football</span>.</p>
+                <p className="main--intro--text--animation--1">Hi, I am <span className="yellow--color work-item-specialText-animation">César Mello</span>.</p>
+                <p className="main--intro--text--animation--2">I am a <span className="purple--color work-item-specialText-animation">Fullstack Web Developer</span>.</p>
+                <p className="main--intro--text--animation--3">I Love <span className="brown--color work-item-specialText-animation">programming</span>, <span className="brown--color work-item-specialText-animation">games</span> and <span className="brown--color work-item-specialText-animation">football</span>.</p>
                 
             </div>
 
