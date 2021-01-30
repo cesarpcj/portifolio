@@ -1,17 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import WorkItem from './workItem';
 import Projects from '../files/projects.json';
+import WorkItemInfo from '../components/workItemInfo';
 
 
-export default function work() {
-    
+export default function Work() {
+    const [chosenItem, setChosenItem] = useState(0);
     return (
         <div className="main--works">
             <h3>Work</h3>
             <div className="main--works--list">
                 {
                     Projects.map(project =>{
-                        return <WorkItem key={project.name} link={project.link} title={project.title} description={project.description}/>
+                        // return <WorkItem key={project.name} link={project.link} title={project.title} description={project.description}/>
+                        return <WorkItem key={project.name} {...project} pick={() => setChosenItem(project.id)}/>
                     }
 
                     )
@@ -19,6 +21,8 @@ export default function work() {
              
 
             </div>
+            <WorkItemInfo {...Projects[chosenItem]}/>
+
         </div>
     )
 }

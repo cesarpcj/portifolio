@@ -13,10 +13,10 @@ export default function MainInfo() {
                     <GrMail onMouseOver={() => setChosenInfo("cesarpcj@hotmail.com")}/> 
                 </p>
                 <p>
-                    <FaPhoneSquareAlt onMouseOver={() => setChosenInfo("+351 910 138 605")}/>
+                    <FaPhoneSquareAlt onMouseOver={() => setChosenInfo("+44 07719165796")}/>
                 </p>
                 <p>
-                    <MdLocationOn onMouseOver={() => setChosenInfo("Lisbon, Portugal")}/>
+                    <MdLocationOn onMouseOver={() => setChosenInfo("Birmingham, UK")}/>
                 </p>
                 <p>
                     <a href="https://github.com/cesarpcj" rel="noopener noreferrer" target="_blank">

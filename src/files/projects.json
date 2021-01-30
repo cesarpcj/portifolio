@@ -1,21 +1,38 @@
 [
-    {"title": "Castelinio",
-    "cardStyle":  "main--works--item-card--1",
-    "description": "Castelinio is a tower defense game. It was developed in 4 days using HTML5 Canvas",
-    "link": "https://castelinio.netlify.app/"
+    {"id":0,
+    "title": "Castelinio",
+    "type": "Game",
+    "tools": "Html5 JavaScript Canvas",
+    "description": "Castelinio is a tower defense game. It was developed in 24 hours using HTML5 Canvas during Ironhack's Full Stack Web Development Bootcamp. The game is playable but is not polished.",
+    "link": "https://castelinio.netlify.app/",
+    "action":"Play",
+    "images": ["https://i.imgur.com/nEZYSIr.png", "https://i.imgur.com/6KuUlB4.png", "https://i.imgur.com/AaFcWwe.png", "https://i.imgur.com/CQzPkX7.png"]
+
+        
     },
 
-    {"title": "Uniflow",
-        "cardStyle": "main--works--item-card--2",
-        "description": "A single-page application created with MERN Stack",
-        "link": "https://uniflow-ironhack.herokuapp.com/"
-        },
+    {"id":1,
+    "title": "Delivery Guy",
+    "type": "Game",
+    "tools": "Unity3D C# Mobile",
+    "description": "Delivery Guy is a game inspired by Paperboy(1984 Atari), but instead of delivering newspaper you have to delivery pizzas, burguers and donuts. The current version has only 1 level and was developed in my spare time during 2 weeks.",
+    "link": "https://drive.google.com/u/0/uc?id=1hg3ZGfnppqg74rwmiCpJazywzrv_lksR&export=download",
+    "action":"Download",
+    "images": ["https://i.imgur.com/09cc5ai.png", "https://i.imgur.com/V4eGdWT.png", "https://i.imgur.com/ikA4pB0.png","https://i.imgur.com/eXvw5rz.png"]
+    },
+    
+    {"id":2,
+    "title": "Football Match Simulator",
+    "type": "Game",
+    "tools": "Unity3D C#",
+    "description": "Football Match Simulator is being developed to be a part of a football manager game I am planning to do. The simulator is in a very early stage of development, some key features are still missing like goalkeeper behaviour, goals, corner kick, goal kick, throw in, time and the attack behaviour should be improved.",
+    "link": "https://",
+    "action":"Watch Video",
+    "images": ["https://i.imgur.com/uUtiu8s.png", "https://i.imgur.com/2JqVlfN.png", "https://i.imgur.com/a2XEdlR.png","https://i.imgur.com/gvdnSaf.png"]
 
-    {"title": "My Food Log",
-        "cardStyle":  "main--works--item-card--3",
-        "description": "A simple app where you can log your daily food consumption",
-        "link": "https://ironhack-project-2-food-logger.herokuapp.com/"
-        }
+    }
+
+   
 
 
 ]
