@@ -243,7 +243,8 @@ to{transform: translateX(0);}
 .main--works h3{
   margin: 40px 0 30px 10%;
   text-align: left;
-  color: rgb(220, 205, 121);;
+  color: rgb(220, 205, 121);
+  color: whitesmoke;
 }
 
 .main--works p, h5, h2{

@@ -1,14 +1,14 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 
 export default function WorkItem(props) {
    
     
     
-    const isOnView = (el)=>{
-        var rect = el.getBoundingClientRect();
-        var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-        return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
-    }
+    // const isOnView = (el)=>{
+    //     var rect = el.getBoundingClientRect();
+    //     var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+    //     return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+    // }
 
     // useEffect(()=>{
     //     var elem = document.getElementById(props.title);
