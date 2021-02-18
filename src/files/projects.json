@@ -15,7 +15,7 @@
     "title": "Delivery Guy",
     "type": "Game",
     "tools": "Unity3D C# Mobile",
-    "description": "Delivery Guy is a game inspired by Paperboy(1984 Atari), but instead of delivering newspaper you have to delivery pizzas, burguers and donuts. The current version has only 1 level and was developed in my spare time during 2 weeks.",
+    "description": "Delivery Guy is a game inspired by Paperboy(1984 Atari), but instead of delivering newspaper you have to delivery pizzas, burguers and donuts.  The current version has only 1 level and was developed in my spare time during 2 weeks.",
     "link": "https://drive.google.com/u/0/uc?id=1hg3ZGfnppqg74rwmiCpJazywzrv_lksR&export=download",
     "action":"Download for Android",
     "images": ["https://i.imgur.com/09cc5ai.png", "https://i.imgur.com/V4eGdWT.png", "https://i.imgur.com/ikA4pB0.png","https://i.imgur.com/eXvw5rz.png"]
@@ -25,10 +25,20 @@
     "title": "Football Match Simulator",
     "type": "Game",
     "tools": "Unity3D C#",
-    "description": "Football Match Simulator is being developed to be a part of a football manager game I am planning to do. The simulator is in a very early stage of development, some key features are still missing like goalkeeper behaviour, goals, corner kick, goal kick, throw in, time and the attack behaviour should be improved.",
+    "description": "Football Match Simulator is being developed to be a part of a football manager game I am planning to do.  The simulator is in a very early stage of development, some key features are still missing like goalkeeper behaviour, goals, corner kick, goal kick, throw in, time and the attack behaviour should be improved.",
     "link": "https://youtu.be/trrUVvH-3b8",
     "action":"Watch Video",
     "images": ["https://i.imgur.com/uUtiu8s.png", "https://i.imgur.com/2JqVlfN.png", "https://i.imgur.com/a2XEdlR.png","https://i.imgur.com/gvdnSaf.png"]
+
+    },
+    {"id":3,
+    "title": "Easy Recipe Note",
+    "type": "Web App",
+    "tools": "JavaScript, HTML, CSS, React, Node, Express, MongoDB",
+    "description": "This Wep App was developed for my wife to put her recipes into the app to facilitate her life when she needs to cook.  I used React for the front end, Node for the Rest API and MongoDB for the database.  On this Wep App you can create recipes with name, time, servings, ingredients, steps and additional notes. And of course you can also edit e delete the recipe.",
+    "link": "https://easyrecipenote.herokuapp.com/",
+    "action":"Visit",
+    "images": ["https://i.imgur.com/fkJiL0L.png", "https://i.imgur.com/bRv7KNP.png", "https://i.imgur.com/2IiayuY.png","https://i.imgur.com/G1Y9c81.png"]
 
     }
 

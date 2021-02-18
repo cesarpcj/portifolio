@@ -10,21 +10,6 @@ export default function WorkItem(props) {
     //     return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
     // }
 
-    // useEffect(()=>{
-    //     var elem = document.getElementById(props.title);
-    //     window.addEventListener('scroll', () =>{
-    //         isOnView(elem) ? elem.classList.add("work-item-animation"):elem.classList.remove("work-item-animation");
-                
-            
-    //     });
-
-    //     return ()=>{
-    //         window.removeEventListener('scroll', () =>{
-    //             isOnView(elem) ? elem.classList.add("work-item-animation"):elem.classList.remove("work-item-animation");
-
-    //         });
-    //     }
-    // })
 
     const firstItem = "main--works--item--first";
     const nextItems = "main--works--item--next";

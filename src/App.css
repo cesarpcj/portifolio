@@ -391,12 +391,14 @@ a.btn--card{
 }
 
 .work--item--image--container{
-  margin: 10px 0;
+  margin: 10px auto;
+  
   
 }
 .work--item--image{
-  width: 500px;
+  max-width: 500px;
   border-radius: 15px;
+  box-shadow: 1px 1px 4px 2px gray;
 }
 
 
