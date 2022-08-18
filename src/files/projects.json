@@ -25,20 +25,20 @@
     "title": "Football Match Simulator",
     "type": "Game",
     "tools": "Unity3D C#",
-    "description": "Football Match Simulator is being developed to be a part of a football manager game I am planning to do.  The simulator is in a very early stage of development, some key features are still missing like goalkeeper behaviour, goals, corner kick, goal kick, throw in, time and the attack behaviour should be improved.",
+    "description": "Football Match Simulator is being developed to be a part of my manager game.",
     "link": "https://www.youtube.com/watch?v=8HNEWJGROoo",
     "action":"Watch Video",
-    "images": ["https://i.imgur.com/uUtiu8s.png", "https://i.imgur.com/2JqVlfN.png", "https://i.imgur.com/a2XEdlR.png","https://i.imgur.com/gvdnSaf.png"]
+    "images": ["https://i.imgur.com/YvMK1Fj.png", "https://i.imgur.com/IzQM0aP.png", "https://i.imgur.com/cF5RHgy.png","https://i.imgur.com/U8i5ZqC.png"]
 
     },
     {"id":3,
-    "title": "Easy Recipe Note",
+    "title": "Manager Game Test App",
     "type": "Web App",
-    "tools": "JavaScript, HTML, CSS, React, Node, Express, MongoDB",
-    "description": "This Wep App was developed for my wife to put her recipes into the app to facilitate her life when she needs to cook.  I used React for the front end, Node for the Rest API and MongoDB for the database.  On this Wep App you can create recipes with name, time, servings, ingredients, steps and additional notes. And of course you can also edit e delete the recipe.",
-    "link": "https://easyrecipenote.herokuapp.com/",
-    "action":"Visit",
-    "images": ["https://i.imgur.com/fkJiL0L.png", "https://i.imgur.com/bRv7KNP.png", "https://i.imgur.com/2IiayuY.png","https://i.imgur.com/G1Y9c81.png"]
+    "tools": "JavaScript, HTML, CSS, React, Redux. Node, Express, MongoDB",
+    "description": "The game was developed to be a tool for testing the Football Match Simulator I'm building.  I used React/Redux for the front end, Node for the Rest API and MongoDB for the database. On this game you can buy and sell player on the market, set up the team formation, players instructions and team instructions. You have 3 opponents available to be challenged.",
+    "link": "https://managertestgame.vercel.app/",
+    "action":"Play",
+    "images": ["https://i.imgur.com/pMEJrnS.png", "https://i.imgur.com/S7iCk23.png", "https://i.imgur.com/K3jY71a.png","https://i.imgur.com/hhQAJMZ.png"]
 
     }
 

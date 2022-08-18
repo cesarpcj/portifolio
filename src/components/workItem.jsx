@@ -1,22 +1,11 @@
 import React from 'react'
 
 export default function WorkItem(props) {
-   
-    
-    
-    // const isOnView = (el)=>{
-    //     var rect = el.getBoundingClientRect();
-    //     var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-    //     return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
-    // }
-
 
     const firstItem = "main--works--item--first";
     const nextItems = "main--works--item--next";
 
     return (
-        
-
        <div id={props.title}  style={{zIndex: props.id}} className={props.id === 0 ? firstItem : nextItems} onMouseOver={props.pick}>
 
             <div>
