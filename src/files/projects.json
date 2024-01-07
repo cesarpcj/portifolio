@@ -1,48 +1,64 @@
 [
-    {"id":0,
+  {
+    "id": 0,
     "title": "Castelinio",
     "type": "Game",
     "tools": "Html5 JavaScript Canvas",
     "description": "Castelinio is a tower defense game. It was developed in 24 hours using HTML5 Canvas during Ironhack's Full Stack Web Development Bootcamp. The game is playable but is not polished.",
     "link": "https://castelinio.netlify.app/",
-    "action":"Play",
-    "images": ["https://i.imgur.com/nEZYSIr.png", "https://i.imgur.com/6KuUlB4.png", "https://i.imgur.com/AaFcWwe.png", "https://i.imgur.com/CQzPkX7.png"]
+    "action": "Play",
+    "images": [
+      "https://i.imgur.com/nEZYSIr.png",
+      "https://i.imgur.com/6KuUlB4.png",
+      "https://i.imgur.com/AaFcWwe.png",
+      "https://i.imgur.com/CQzPkX7.png"
+    ]
+  },
 
-        
-    },
-
-    {"id":1,
+  {
+    "id": 1,
     "title": "Delivery Guy",
     "type": "Game",
     "tools": "Unity3D C# Mobile",
     "description": "Delivery Guy is a game inspired by Paperboy(1984 Atari), but instead of delivering newspaper you have to delivery pizzas, burguers and donuts.  The current version has only 1 level and was developed in my spare time during 2 weeks.",
     "link": "https://drive.google.com/u/0/uc?id=1hg3ZGfnppqg74rwmiCpJazywzrv_lksR&export=download",
-    "action":"Download for Android",
-    "images": ["https://i.imgur.com/09cc5ai.png", "https://i.imgur.com/V4eGdWT.png", "https://i.imgur.com/ikA4pB0.png","https://i.imgur.com/eXvw5rz.png"]
-    },
-    
-    {"id":2,
-    "title": "Football Match Simulator",
-    "type": "Game",
-    "tools": "Unity3D C#",
-    "description": "Football Match Simulator is being developed to be a part of my manager game.",
-    "link": "https://www.youtube.com/watch?v=8HNEWJGROoo",
-    "action":"Watch Video",
-    "images": ["https://i.imgur.com/YvMK1Fj.png", "https://i.imgur.com/IzQM0aP.png", "https://i.imgur.com/cF5RHgy.png","https://i.imgur.com/U8i5ZqC.png"]
+    "action": "Download for Android",
+    "images": [
+      "https://i.imgur.com/09cc5ai.png",
+      "https://i.imgur.com/V4eGdWT.png",
+      "https://i.imgur.com/ikA4pB0.png",
+      "https://i.imgur.com/eXvw5rz.png"
+    ]
+  },
 
-    },
-    {"id":3,
+  {
+    "id": 2,
     "title": "Manager Game Test App",
     "type": "Web App",
     "tools": "JavaScript, HTML, CSS, React, Redux. Node, Express, MongoDB",
     "description": "The game was developed to be a tool for testing the Football Match Simulator I'm building.  I used React/Redux for the front end, Node for the Rest API and MongoDB for the database. On this game you can buy and sell player on the market, set up the team formation, players instructions and team instructions. You have 3 opponents available to be challenged.",
     "link": "https://managertestgame.vercel.app/",
-    "action":"Play",
-    "images": ["https://i.imgur.com/pMEJrnS.png", "https://i.imgur.com/S7iCk23.png", "https://i.imgur.com/K3jY71a.png","https://i.imgur.com/hhQAJMZ.png"]
-
-    }
-
-   
-
-
+    "action": "Play",
+    "images": [
+      "https://i.imgur.com/pMEJrnS.png",
+      "https://i.imgur.com/S7iCk23.png",
+      "https://i.imgur.com/K3jY71a.png",
+      "https://i.imgur.com/hhQAJMZ.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Master Manager",
+    "type": "Game",
+    "tools": "Unity3D, C#, JSON",
+    "description": "You are the manager of a football club, determine its future by making the best decisions regarding tactics, training, player contracts, sponsorship deals and infrastructure.",
+    "link": "https://store.steampowered.com/app/2695240/Master_Manager",
+    "action": "Go To Steam Page",
+    "images": [
+      "https://i.imgur.com/t7jlLm3.png",
+      "https://i.imgur.com/aQIMg8w.png",
+      "https://i.imgur.com/tDHCLx3.png",
+      "https://i.imgur.com/2Ivfvw4.png"
+    ]
+  }
 ]
