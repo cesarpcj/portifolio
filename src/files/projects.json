@@ -49,7 +49,7 @@
   {
     "id": 3,
     "title": "Master Manager",
-    "type": "Game",
+    "type": "PC Game",
     "tools": "Unity3D, C#, JSON",
     "description": "You are the manager of a football club, determine its future by making the best decisions regarding tactics, training, player contracts, sponsorship deals and infrastructure.",
     "link": "https://store.steampowered.com/app/2695240/Master_Manager",
